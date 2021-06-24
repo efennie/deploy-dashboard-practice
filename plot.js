@@ -32,7 +32,7 @@ d3.json("data/data.json").then((incomingData) => {
 
   // Define the plot layout
   var layout = {
-    title: "The highest critically acclaimed movies.",
+    title: "The highest critically acclaimed movies (according to a couple of dudes).",
     xaxis: { title: "Title" },
     yaxis: { title: "Metascore (Critic) Rating"}
   };
